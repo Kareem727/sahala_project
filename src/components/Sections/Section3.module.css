@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    margin-top: 10%;
+    position: relative;
+}
+
+.container .par{
+    width: 30%;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+.container .par h1{
+    font-size: 25px;
+}
+.container .par p{
+    margin-top: 15%;
+font-size: 18px;
+color: #747474;
+}
+.container .background{
+margin-left: 48.6%;
+}
+
+.container .background img:nth-child(1){
+    position: absolute;
+    }
+.container .background img:nth-child(2){
+        position: relative;
+        }

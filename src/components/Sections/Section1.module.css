@@ -1,0 +1,75 @@
+.container2{
+    
+    display: flex;
+    
+}
+/* .paragraph-side1{
+  
+} */
+.par{
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    top: 190px;
+    left: 61%;
+    
+}
+
+/* .background-side2{
+    position: relative;
+
+} */
+
+.b1{
+    position: absolute;
+}
+.b2{
+    position: relative;
+}
+.b3{
+    position: absolute;
+    top: 16%;
+    left: 14%;
+
+}
+
+.b4{
+    position: absolute;
+    top: 13%;
+    left: -4%;
+}
+
+.b5{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.b6{
+    position: absolute;
+    top: 54%;
+    left: 0%;
+}
+
+.paragraph-side1 .par h1{
+    font-weight: bold;
+    font-size: 42px;
+
+} 
+.paragraph-side1 .par  p{
+    margin-top: 10%;
+    font-size: 23px;
+    color: #747474;
+}
+
+.paragraph-side1 .par  p button{
+    margin-top: 20%;
+    width: 278px;
+    height: 84px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #297C9C;
+    border-color: #297C9C;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.container{
+    margin-top: 10%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    width: auto;
+}
+.container .sss{
+
+}
+
