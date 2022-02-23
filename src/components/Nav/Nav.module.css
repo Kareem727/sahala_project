@@ -1,10 +1,10 @@
 .nav{
-    font-family: 'Zahra';
+    font-size: 26px;
+    font-family: 'ZahraArabic';
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
     position: absolute;
     top: 0;
     z-index: 999;
@@ -47,7 +47,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    justify-content: end;
+    justify-content: start;
     margin-right: auto;
 }
 
@@ -62,6 +62,8 @@ cursor: pointer;
 
 /* ========Button Nav side======== */
 .nav-button{
+    font-family: 'ZahraArabic';
+font-size: 26px;
 width: 194px;
 height: 55px;
 border-radius: 50px 50px 50px 50px;

@@ -7,7 +7,6 @@
   
 } */
 .par{
-    width: 35%;
     height: 50%;
     position: absolute;
     top: 190px;
@@ -51,25 +50,28 @@
     left: 0%;
 }
 
-.paragraph-side1 .par h1{
-    font-weight: bold;
-    font-size: 42px;
+.paragraph-side1 .par p:nth-child(1){
+    font-size: 71px;
+
 
 } 
 .paragraph-side1 .par  p{
     margin-top: 10%;
-    font-size: 23px;
+    font-size: 32px;
     color: #747474;
 }
 
-.paragraph-side1 .par  p button{
-    margin-top: 20%;
+.paragraph-side1 .par  button{
+    margin-top: 7%;
     width: 278px;
     height: 84px;
     border-radius: 50px 50px 50px 50px;
     background-color: #297C9C;
     border-color: #297C9C;
     color: white;
+    font-family: 'ZahraArabic';
     font-size: 26px;
-    cursor: pointer;
-}
+        cursor: pointer;
+        box-shadow: 2px 2px 11px #707070;
+    
+    }

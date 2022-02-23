@@ -1,0 +1,53 @@
+.container{
+    margin-top: 10%;
+    background-color: #F6F6F6;
+    width: 100%;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+
+}
+.container3{
+margin-right: 10%;
+}
+.container3 p{
+    width: 430px;
+
+}
+.container2{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    padding-top: 133px;
+    padding-bottom: 157px;
+    width: 30%;
+}
+.gridss img{
+    margin-top: 25%;
+}
+.gridss h1{
+    margin-bottom: 40%;
+}
+.gridss p,
+.gridss li{
+    margin-top: 10%;
+}
+.marb{
+    margin-bottom: 80%;
+    
+}
+.gridss2{
+    margin-right: 0%;
+
+}
+.icons{
+    display: flex;
+
+}
+.icons i{
+
+    font-size: 20px;
+    color:#297C9C;
+    margin-right: 100%;
+}
+

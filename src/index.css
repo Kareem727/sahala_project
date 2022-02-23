@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "ZahraArabic";
+  src: local("ZahraArabic"),
+    url("./fonts/18618-zahra.arabic.otf") format("OpenType");
+  font-weight: normal;
+}
