@@ -32,3 +32,23 @@ text-align: center !important;
     width: 90%;
 }
     }
+    @media screen and (max-width: 420px) {
+        .container{
+margin-left:2% ;
+
+        }
+        .sss p:nth-child(2){
+        font-size: 42px;
+        }
+        
+        .sss p:nth-child(3){
+            font-size: 26px;
+        
+            }
+    }
+    @media screen and (max-width: 280px) {
+        .container{
+margin-left:15% ;
+
+        }
+    }

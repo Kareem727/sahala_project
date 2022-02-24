@@ -6,17 +6,17 @@ const Section_3 = () =>{
     return(
         <bdo dir='rtl'>
         <div className={stylesss.container}>
-            <div className={stylesss.par}>
-                <p>أضف منتجاتك المفضلة الى السلة و قم بالشراء الأن</p>
-            <p>باشر في الإطلاع على تفاصيل مختلف المنتجات و قم بشراء و إضافة أفضل المنتجات الى السلة, 
-بإضافة الى إضافة مكان التوصيل.</p>
-            </div>
+            
             <div className={stylesss.background}>
                 <img src={rectangle}></img>
                 <img src={img1}></img>
 
             </div>
-
+            <div className={stylesss.par}>
+                <p>أضف منتجاتك المفضلة الى السلة و قم بالشراء الأن</p>
+            <p>باشر في الإطلاع على تفاصيل مختلف المنتجات و قم بشراء و إضافة أفضل المنتجات الى السلة, 
+بإضافة الى إضافة مكان التوصيل.</p>
+            </div>
             </div>
             </bdo>
     );
