@@ -1,12 +1,34 @@
 .container{
+
     margin-top: 10%;
     color: black;
     display: flex;
-    justify-content: space-around;
-    max-width: 100%;
-    width: auto;
+    justify-content: space-between;
+    width: 90%;
 }
-.container .sss{
-
+.sss{
+    width: 50%;
+}
+.sss p:nth-child(2){
+    margin-top: 5%;
+font-size: 52px;
 }
 
+.sss p:nth-child(3){
+    font-size: 32px;
+    color: #747474;
+    width: 92%;
+    
+
+    }
+    @media screen and (max-width: 920px) {
+        .container{
+text-align: center !important;  
+          display: block;
+          justify-content: center !important;
+
+        }
+.sss{
+    width: 90%;
+}
+    }

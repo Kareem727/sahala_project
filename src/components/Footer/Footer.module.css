@@ -3,16 +3,21 @@
     background-color: #F6F6F6;
     width: 100%;
     display: flex;
-    margin: 20px 0px 20px 0px;
 
 }
+
+
 .container3{
 margin-right: 10%;
 }
 .container3 p{
     width: 430px;
-
+font-size: 27px;
+color: #747474;
 }
+
+
+
 .container2{
 
     display: flex;
@@ -22,23 +27,39 @@ margin-right: 10%;
     padding-bottom: 157px;
     width: 30%;
 }
+.container2 .gridss p{
+    margin-top: 10%;
+    font-size: 32px;
+}
+.container2 .gridss li{
+    
+    font-size: 22px;
+    color: #297C9C;
+}
+.container2 .gridss .mgtLi{
+    margin-top: 40%;
+}
+
+
 .gridss img{
     margin-top: 25%;
 }
 .gridss h1{
     margin-bottom: 40%;
 }
-.gridss p,
+
 .gridss li{
     margin-top: 10%;
 }
 .marb{
-    margin-bottom: 80%;
-    
+    margin-top: 27%;
+    margin-bottom: 150%;
+    margin-inline: 90%;
+    font-size: 32px;
 }
 .gridss2{
-    margin-right: 0%;
-
+    margin-left: -13%;
+    margin-right: -19%;
 }
 .icons{
     display: flex;
@@ -46,7 +67,7 @@ margin-right: 10%;
 }
 .icons i{
 
-    font-size: 20px;
+    font-size: 21px;
     color:#297C9C;
     margin-right: 100%;
 }

@@ -7,9 +7,9 @@ const Section_3 = () =>{
         <bdo dir='rtl'>
         <div className={stylesss.container}>
             <div className={stylesss.par}>
-                <h1>أضف منتجاتك المفضلة الى السلة و قم بالشراء الأن</h1>
+                <p>أضف منتجاتك المفضلة الى السلة و قم بالشراء الأن</p>
             <p>باشر في الإطلاع على تفاصيل مختلف المنتجات و قم بشراء و إضافة أفضل المنتجات الى السلة, 
-بإضافة الى إضافة مكان التوصيل</p>
+بإضافة الى إضافة مكان التوصيل.</p>
             </div>
             <div className={stylesss.background}>
                 <img src={rectangle}></img>

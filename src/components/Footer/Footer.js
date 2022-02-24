@@ -13,22 +13,22 @@ const Footer = () =>{
 </div>
 <div className={stylesss.container2}>
 <div className={stylesss.gridss}>
-    <h1>خرائط المواقع</h1>
+    <p>خرائط المواقع</p>
       
-        <li>الرئيسية</li>
+        <li className={stylesss.mgtLi}>الرئيسية</li>
         <li>المزايا</li>
     
 </div>
 <div className={stylesss.gridss}>
-    <h1>المزايا</h1>
+    <p>المزايا</p>
      
-        <li>مختلف المتاجر</li>
+        <li className={stylesss.mgtLi}>مختلف المتاجر</li>
         <li>تواصل المزودين</li>
         <li>الحصول على إشعار</li>
     
 </div>   
 <div className={stylesss.gridss2}>
-    <h1 className={stylesss.marb}>تابعنا</h1>
+    <p className={stylesss.marb}>تابعنا</p>
      
     <div className={stylesss.icons}>
     <i className='fa fa-linkedin'></i>      

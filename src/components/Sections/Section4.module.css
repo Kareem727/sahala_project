@@ -5,7 +5,7 @@
 }
 
 .container .par{
-    width: 30%;
+    width: 29%;
     position: absolute;
     left: 65%;
     top: 25%;
@@ -13,9 +13,13 @@
 .container .par h1{
     font-size: 25px;
 }
-.container .par p{
+.container .par p:nth-child(1){
     margin-top: 15%;
-font-size: 18px;
+font-size: 42px;
+}
+.container .par p:nth-child(2){
+    margin-top: 10%;
+font-size: 32px;
 color: #747474;
 }
 .container .background{
