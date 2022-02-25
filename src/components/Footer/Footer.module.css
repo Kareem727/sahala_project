@@ -16,8 +16,6 @@ font-size: 27px;
 color: #747474;
 }
 
-
-
 .container2{
 
     display: flex;
@@ -39,8 +37,9 @@ color: #747474;
 .container2 .gridss .mgtLi{
     margin-top: 40%;
 }
-
-
+.footerBlock3{
+    display: flex;
+}
 .gridss img{
     margin-top: 25%;
 }
@@ -72,3 +71,47 @@ color: #747474;
     margin-right: 100%;
 }
 
+@media screen and (max-width: 600px) {
+    /* .container{
+        
+        display: block;
+        margin-top: 0% !important;
+        margin-left: 0% !important;
+        width: 100% !important;
+    
+    }
+    .container2{
+        display: block;
+    }
+    .container3{
+     margin-right: 10% !important;
+     width: 100% !important;
+     margin-left: 10% !important;
+     
+    }
+    .container3 .gridss{
+        width: 330px !important;
+    } */
+    .container{
+        width: 100%;
+        margin-left: -1% !important;
+        margin-right: 0% !important;
+        display: block;
+    }
+    .container3{
+        width: 90% !important;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .container2{
+        display: block ;
+        width: 90% !important;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+     .footerBlock3{
+         display: flex;
+     }
+   
+
+}

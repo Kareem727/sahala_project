@@ -71,7 +71,7 @@ width: 100%;
 
         margin-bottom: 58%;
         justify-content: center;        
-        width: 90%;
+        width: 87%;
 
     }
     .container img{
@@ -106,20 +106,20 @@ transform: rotate(90deg) translateX(180px);
     .container{
     margin-bottom: 82%;
 justify-content: center;        
-width: 90%;
+width: 83%;
 
     }
     .container img{
         
 transform: rotate(90deg) translateX(180px);
-        width: 120%;
-        height: 414px;
+width: 119%;
+height: 305px;
     }
     .hero-btns Button {
-        margin-top: 21px;
+        margin-top: 16px;
         margin-left: 0%;
-        width: 237px;
-        height: 79px;
+        width: 200px;
+        height: 64px;
       border-radius: 50px 50px 50px 50px;
   
     }
@@ -137,15 +137,21 @@ transform: rotate(90deg) translateX(180px);
 }
 @media screen and (max-width: 402px) {
     .hero-btns Button {
-        margin-top: 12px;
+        margin-top: 8px;
         margin-left: 0%;
-        width: 228px;
-        height: 74px;
+        width: 207px;
+        height: 70px;
+    
+    }
+    .hero-btns p {
+        font-size: 30px;
+        color: white;
+        margin-top: 18%;
     }
     
     .container img{
         
-        width: 118% !important;
+        width: 120% !important;
         height: 356px !important;
             }
             
@@ -166,7 +172,7 @@ transform: rotate(90deg) translateX(180px);
    
     .container img{
         
-        width: 136% !important;
+        width: 148% !important;
         height: 356px !important;
             }
 }
