@@ -1,11 +1,12 @@
 import stylesss from './Footer.module.css'
-import logo from '../img/Logo.png'
+import logo from '../img/logo/logo.jpeg';
 const Footer = () =>{
     return(
         <bdo dir='rtl'>
             
 <div className={stylesss.container}>
 
+    <div className={stylesss.innerConteiner}>
     <div className={stylesss.container3}>
     <div className={stylesss.gridss}>
     <img src={logo}></img>
@@ -31,12 +32,13 @@ const Footer = () =>{
 <div className={stylesss.gridss}> 
     <p>تابعنا</p>
     <div className={stylesss.icons}>
-    <div><i className='fa fa-linkedin'></i>   </div>   
-    <div><i className="fa fa-twitter"></i></div>
+    <div className={stylesss.icons2}><i className='fa fa-linkedin'></i>   </div>   
+    <div className={stylesss.icons2}><i className="fa fa-twitter"></i></div>
     <div><i className="fa fa-facebook-f"></i></div>
     </div>
 </div>
 </div>
+    </div>
 
 
 

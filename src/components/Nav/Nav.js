@@ -1,6 +1,6 @@
 import React from "react";
 import styless from "./Nav.module.css";
-import logo from '../img/logo/2.jpeg';
+import logo from '../img/logo/logo.jpeg';
 import { useState } from "react";
 const NavBar = () => {
   const [click , setclick] = useState();  // initial value setclick
