@@ -5,95 +5,78 @@
     display: flex;
 
 }
-
+.Tabenaa{
+    margin-top: 13%;
+}
+.icons{
+    margin-top: 10%;
+}
+.innerConteiner{
+    width: 90%;
+    display: flex;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
 .container3 img{
     width: 250px;
     height: 120px;
 }
 .container3{
 margin-right: 10%;
+width: 20% !important;
 }
 .container3 p{
-    width: 60%;
-font-size: 27px;
-color: #747474;
+    font-size: 27px;
+    color: #747474;
 }
 
 .container2{
-
     display: flex;
     justify-content: space-between;
-    margin-right: -20%;
-    margin-top: 11%;
-    padding-top: 123px;
-    padding-bottom: 157px;
-    width: 36%;
+    width: 53%;
+    align-items: center;
+   margin-right: 13%;
+ }
+ .container2 .gridss{
+     width: 30%;
+ }
+ .gridss .icons{
+    margin-top: 36%;
+         display: flex;
+     justify-content: space-between;
+ width: 100%;
+}
+  .gridss .icons2{
+    justify-content: space-around;
+}
+.container2 div:nth-child(2){
+     height: 70%;
 }
 .container2 .gridss p{
-    margin-top: -5%;
-    font-size: 36px;
+     font-size: 36px;
 }
 .container2 .gridss li{
     
     font-size: 22px;
     color: #297C9C;
 }
-.container2 .gridss .mgtLi{
-    margin-top: 40%;
-}
-.container2 div:nth-child(2){
-    margin-right: 5%;
-}
-.footerBlock3{
-    display: flex;
-    width: 100%;
-}
-.footerBlock3 div:nth-child(1){
-margin-left: 10%;    
-}
-.gridss img{
-    margin-top: 25%;
-}
-.gridss h1{
-    margin-bottom: 40%;
-}
-
-.gridss li{
-    margin-top: 10%;
-}
-.marb{
-    margin-top: 27%;
-    margin-bottom: 150%;
-    margin-inline: 90%;
-    font-size: 32px;
-}
-.gridss2{
-    margin-left: -13%;
-    margin-right: -19%;
-}
-.icons{
-    display: flex;
-
-}
 .icons i{
 
     font-size: 21px;
     color:#297C9C;
-    margin-right: 100%;
 }
-.innerConteiner{
+ 
+.container3 div:nth-child(1) p{
+    width: 130%;
+ } 
+.ddddd{
     display: flex;
-    width: 50% !important;
+    width: 70%;
+    justify-content: space-evenly;
 }
-.icons2{
-    margin-left: 100%;
-}
-.icons i{
+ /*==================================================================================== **/
 
-   font-size: 30px;
-    
-}
-@media screen and (max-width: 1024px) {
+ /* @media screen and (max-width: 1024px) {
 .container2{
      
     margin-left: -17%;
@@ -106,21 +89,79 @@ margin-left: 10%;
 .footerBlock3 div:nth-child(1){
     margin-left: 42%;    
     }
-}
+} */
 @media screen and (max-width: 800px) {
+     
+    .innerConteiner{
+        display: block;
+        flex-direction: column;
+    }
     .container2{
-         
-        margin-left: -17%;
-    
+        
+        display: block;
+        margin-right: 13% !important;
     }
-    .container3 p{
-        width: 34%;
-    
+    .container2 .ddddd{
+        justify-content:  flex-start;
+        display: flex;
+        width: 300% !important;
+    }
+    .container3{
+        width: 70% !important;
+    }
+   .container2 div:nth-child(2) p {
+    margin-top: 15%;
     }
     }
 
+    @media screen and (max-width: 500px) {
+     
+        .innerConteiner{
+            display: block;
+            flex-direction: column;
+        }
+        .container2{
+            
+            display: block;
+            margin-right: 13% !important;
+        }
+        .container2 .ddddd{
+            display: flex;
+            width: 300%;
+        }
+        .container3{
+            width: 70% !important;
+        }
+       .container2 div:nth-child(2) p {
+            margin-top: 0%;
+        }
+        }
 
-@media screen and (max-width: 600px) {
+
+        @media screen and (max-width: 380px) {
+     
+            .innerConteiner{
+                display: block;
+                flex-direction: column;
+            }
+            .container2{
+                
+                display: block;
+                margin-right: 13% !important;
+            }
+            .container2 .ddddd{
+                display: flex;
+                width: 300%;
+            }
+            .container3{
+                width: 70% !important;
+            }
+           .container2 div:nth-child(2) p {
+                margin-top: 0%;
+            }
+            }
+
+/* @media screen and (max-width: 600px) {
 
     .container{
          justify-content: center;
@@ -166,7 +207,7 @@ margin-left: 10%;
     margin-right: 0%;
 
 }
-}
+} */
 @media screen and (max-width: 370px) {
 
     .container{
@@ -174,4 +215,4 @@ margin-left: 10%;
         width: 124%;
        
     } 
-}
+} 

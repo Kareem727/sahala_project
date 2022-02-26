@@ -458,7 +458,9 @@
             height: 62px;
             margin-bottom: 50px;
         }
-        
+        .paragraph-side1 .par{
+            margin-right: 2% !important;
+        }
         .background-side2 {
             width: 118% !important;
             height: 150% !important;
