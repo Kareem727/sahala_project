@@ -83,64 +83,8 @@
         box-shadow: 2px 2px 11px #707070;
     
     }
-    @media screen and (max-width: 450px) {
-        .paragraph-side1 .par p:nth-child(1){
-            margin-top: 40%;
-            font-size: 54px !important;
-        } 
-        .paragraph-side1 .par  p:nth-child(2){
-            font-size: 26px !important;
-        
-        } 
-    }
 
-    @media screen and (max-width: 920px) {
-.container2{
-    display: block;
-}
-.paragraph-side1 .par p:nth-child(1){
-    font-size: 64px;
-} 
-.paragraph-side1 .par  p:nth-child(2){
-    font-size: 32px;
-
-}
-
-.paragraph-side1 .par  button{
-    width: 206px;
-    height: 62px;
-    margin-bottom: 50px;
-}
-
-.background-side2 {
-    width: 118% !important;
-    height: 150% !important;
-    margin-left: 0% !important;
- }
- .sdsad{
-    text-align: center !important;
-
-     width: 100% !important;
-     height: 120% !important;
-             }
-
-         .background-side2 .par2{
-
-                 width: auto !important;
-                 height: 100% !important;
-                }
-                .background-side2 .par2 .b1{
-                    
-                    width: 100% !important;
-                }
- .background-side2 .par2 .b1 img{
-     margin-right: 5% !important;
-     height: 90% !important;
-     width: 80% !important;
-    }
-    }
-
-
+    
     @media screen and (max-width: 1240px) {
         
         .paragraph-side1 .par p:nth-child(1){
@@ -218,3 +162,467 @@
 }
 
             }
+
+
+            @media screen and (max-width: 920px) {
+                .container2{
+                    display: block;
+                }
+                .paragraph-side1 .par p:nth-child(1){
+                    font-size: 64px;
+                } 
+                .paragraph-side1 .par  p:nth-child(2){
+                    font-size: 32px;
+                
+                }
+                
+                .paragraph-side1 .par  button{
+                    width: 206px;
+                    height: 62px;
+                    margin-bottom: 50px;
+                }
+                
+                .background-side2 {
+                            width: 118% !important;
+                            height: 150% !important;
+                            margin-left: 0% !important;
+                         }
+                 .sdsad{
+                    text-align: center !important;
+                
+                     width: 100% !important;
+                     height: 120% !important;
+                             }
+                
+                         .background-side2 .par2{
+                
+                                 width: auto !important;
+                                 height: 100% !important;
+                                }
+                                .background-side2 .par2 .b1{
+                                    
+                                    width: 100% !important;
+                                }
+                 .background-side2 .par2 .b1 img{
+                    margin-right: 0% !important;
+                    height: 90% !important;
+                    width: 84% !important;
+                    }
+                               
+                .b1 img{
+                    position: relative !important;
+                    width: 733px !important;
+                    height: 953px !important;
+                
+                }
+                
+                .b3{
+                    position: absolute !important;
+                    top: 8% !important;
+                    left: 45% !important;
+                
+                }
+                
+                .b4{
+                    position: absolute !important;
+                    top: 6% !important;
+                    left: 15% !important;
+                }
+                .b5{
+                    position: absolute !important;
+                    top: 22% !important;
+                    left: 52% !important;
+                }
+                
+                .b6{
+                    position: absolute !important;
+                    top: 46.5% !important;
+                    left: 16% !important;
+                }
+                .background-side2 .par2 .b3 img
+                ,.background-side2 .par2 .b4 img
+                ,.background-side2 .par2 .b5 img
+                ,.background-side2 .par2 .b6 img{
+                    height: 93% !important;
+                    width: 115% !important;
+                   }
+                   
+                
+                    }
+
+                    @media screen and (max-width: 730px) {
+                        .container2{
+                            display: block;
+                        }
+                        .paragraph-side1 .par p:nth-child(1){
+                            font-size: 64px;
+                        } 
+                        .paragraph-side1 .par  p:nth-child(2){
+                            font-size: 32px;
+                        
+                        }
+                        
+                        .paragraph-side1 .par  button{
+                            width: 206px;
+                            height: 62px;
+                            margin-bottom: 50px;
+                        }
+                        
+                        .background-side2 {
+                            width: 118% !important;
+                            height: 150% !important;
+                            margin-left: 0% !important;
+                         }
+                         .sdsad{
+                            text-align: center !important;
+                        
+                             width: 100% !important;
+                             height: 120% !important;
+                                     }
+                        
+                                 .background-side2 .par2{
+                        
+                                         width: auto !important;
+                                         height: 100% !important;
+                                        }
+                                        .background-side2 .par2 .b1{
+                                            
+                                            width: 100% !important;
+                                        }
+                         .background-side2 .par2 .b1 img{
+                             margin-right: 0% !important;
+                             height: 90% !important;
+                             width: 85% !important;
+                            }
+                            .b1 img{
+                                position: relative !important;
+                                width: 733px !important;
+                                height: 953px !important;
+                            
+                            }
+                            
+                            .b3{
+                                position: absolute !important;
+                                top: 5% !important;
+                                left: 33% !important;
+                            
+                            }
+                            
+                            .b4{
+                                position: absolute !important;
+                                top: 6% !important;
+                                left: 0% !important;
+                            }
+                            .b5{
+                                position: absolute !important;
+                                top: 25% !important;
+                                left: 51% !important;
+                            }
+                            
+                            .b6{
+                                position: absolute !important;
+                                top: 49.5% !important;
+                                left: 0% !important;
+                            }
+                            .background-side2 .par2 .b3 img
+                            ,.background-side2 .par2 .b4 img
+                            ,.background-side2 .par2 .b5 img
+                            ,.background-side2 .par2 .b6 img{
+                                height: 93% !important;
+                                width: 93% !important;
+                               }
+                               
+                            }
+                
+                
+                
+
+                            
+    @media screen and (max-width: 430px) {
+        .paragraph-side1 .par p:nth-child(1){
+            margin-top: 40%;
+            font-size: 54px !important;
+        } 
+        .paragraph-side1 .par  p:nth-child(2){
+            font-size: 26px !important;
+        
+        }
+        
+        .container2{
+            display: block;
+        }
+        .paragraph-side1 .par p:nth-child(1){
+            font-size: 64px;
+        } 
+        .paragraph-side1 .par  p:nth-child(2){
+            font-size: 32px;
+        
+        }
+        
+        .paragraph-side1 .par  button{
+            width: 206px;
+            height: 62px;
+            margin-bottom: 50px;
+        }
+        
+        .background-side2 {
+            width: 118% !important;
+            height: 150% !important;
+            margin-left: 0% !important;
+         }
+         .sdsad{
+            text-align: center !important;
+        
+             width: 100% !important;
+             height: 120% !important;
+                     }
+        
+                 .background-side2 .par2{
+        
+                         width: auto !important;
+                         height: 100% !important;
+                        }
+                        .background-side2 .par2 .b1{
+                            
+                            width: 100% !important;
+                        }
+         .background-side2 .par2 .b1 img{
+             margin-right: 0% !important;
+             height: 90% !important;
+             width: 85% !important;
+            }
+            .b1 img{
+                position: relative !important;
+                width: 733px !important;
+                height: 953px !important;
+            
+            }
+            
+            .b3{
+                position: absolute !important;
+                height: 91% !important;
+    width: 50% !important;
+            
+            }
+            
+            .b4{
+                position: absolute !important;
+                top: 8% !important;
+                left: -3% !important;
+                width: 383px;
+            }
+            .b5{
+                position: absolute !important;
+                top: 22% !important;
+                left: 52% !important;
+            }
+            
+            .b6{
+                position: absolute !important;
+                top: 41.5% !important;
+                left: -3% !important;
+                width: 341px;
+            }
+            .background-side2 .par2 .b3 img
+            ,.background-side2 .par2 .b4 img
+            ,.background-side2 .par2 .b5 img
+            ,.background-side2 .par2 .b6 img{
+                height: 93% !important;
+                width: 93% !important;
+               }
+    }
+
+    @media screen and (max-width: 330px) {
+        .paragraph-side1 .par p:nth-child(1){
+            margin-top: 40%;
+            font-size: 54px !important;
+        } 
+        .paragraph-side1 .par  p:nth-child(2){
+            font-size: 26px !important;
+        
+        }
+        
+        .container2{
+            display: block;
+        }
+        .paragraph-side1 .par p:nth-child(1){
+            font-size: 64px;
+        } 
+        .paragraph-side1 .par  p:nth-child(2){
+            font-size: 32px;
+        
+        }
+        
+        .paragraph-side1 .par  button{
+            width: 206px;
+            height: 62px;
+            margin-bottom: 50px;
+        }
+        
+        .background-side2 {
+            width: 118% !important;
+            height: 150% !important;
+            margin-left: 0% !important;
+         }
+         .sdsad{
+            text-align: center !important;
+        
+             width: 100% !important;
+             height: 120% !important;
+                     }
+        
+                 .background-side2 .par2{
+        
+                         width: auto !important;
+                         height: 100% !important;
+                        }
+                        .background-side2 .par2 .b1{
+                            
+                            width: 100% !important;
+                        }
+         .background-side2 .par2 .b1 img{
+            margin-right: -19% !important;
+            height: 90% !important;
+            width: 103% !important;;
+            }
+            .b1 img{
+                position: relative !important;
+                width: 733px !important;
+                height: 953px !important;
+            
+            }
+            
+            .b3{
+                position: absolute !important;
+                height: 91% !important;
+    width: 59% !important;
+    top: 6% !important;
+    left: 36% !important;
+            }
+            
+            .b4{
+                position: absolute !important;
+                top: 8% !important;
+                left: -9% !important;
+                width: 383px;
+            }
+            .b5{
+                position: absolute !important;
+                top: 24% !important;
+                left: -8% !important;
+                width: 374px;
+            }
+            
+            .b6{
+                position: absolute !important;
+                top: 40.5% !important;
+                left: -8% !important;
+                width: 333px;
+            }
+            .background-side2 .par2 .b3 img
+            ,.background-side2 .par2 .b4 img
+            ,.background-side2 .par2 .b5 img
+            ,.background-side2 .par2 .b6 img{
+                height: 93% !important;
+                width: 93% !important;
+               }
+    }
+    @media screen and (max-width: 280px) {
+        .paragraph-side1 .par p:nth-child(1){
+            margin-top: 40%;
+            font-size: 54px !important;
+        } 
+        .paragraph-side1 .par  p:nth-child(2){
+            font-size: 26px !important;
+        
+        }
+        
+        .container2{
+            display: block;
+        }
+        .paragraph-side1 .par p:nth-child(1){
+            font-size: 64px;
+        } 
+        .paragraph-side1 .par  p:nth-child(2){
+            font-size: 32px;
+        
+        }
+        
+        .paragraph-side1 .par  button{
+            width: 206px;
+            height: 62px;
+            margin-bottom: 50px;
+        }
+        
+        .background-side2 {
+            width: 118% !important;
+            height: 150% !important;
+            margin-left: 0% !important;
+         }
+         .sdsad{
+            text-align: center !important;
+        
+             width: 100% !important;
+             height: 120% !important;
+                     }
+        
+                 .background-side2 .par2{
+        
+                         width: auto !important;
+                         height: 100% !important;
+                        }
+                        .background-side2 .par2 .b1{
+                            
+                            width: 100% !important;
+                        }
+         .background-side2 .par2 .b1 img{
+             margin-right: 0% !important;
+             height: 90% !important;
+             width: 85% !important;
+            }
+            .b1 img{
+                position: relative !important;
+                width: 733px !important;
+                height: 953px !important;
+            
+            }
+            
+            .b3{
+                position: absolute !important;
+    height: 91% !important;
+    width: 50% !important;
+    left: 29% !important;
+            
+            }
+            
+            .b4{
+                 position: absolute !important;
+    top: -2% !important;
+    left: -20% !important;
+    width: 343px;
+            }
+            .b5{
+                position: absolute !important;
+                top: 22% !important;
+                left: -16% !important;
+                width: 311px;
+            }
+            
+            .b6{
+                position: absolute !important;
+                top: 41.5% !important;
+                left: -14% !important;
+                width: 283px;
+            }
+            .background-side2 .par2 .b3 img
+            ,.background-side2 .par2 .b4 img
+            ,.background-side2 .par2 .b5 img
+            ,.background-side2 .par2 .b6 img{
+                height: 93% !important;
+                width: 84% !important;
+               }
+    }
+
+
+
+   

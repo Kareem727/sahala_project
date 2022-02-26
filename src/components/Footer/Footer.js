@@ -16,8 +16,7 @@ const Footer = () =>{
 
 
 <div className={stylesss.container2}>
-    <div className={stylesss.footerBlock3}>
-<div className={stylesss.gridss}>
+ <div className={stylesss.gridss}>
     <p>خرائط المواقع</p>  
         <li className={stylesss.mgtLi}>الرئيسية</li>
         <li>المزايا</li>  
@@ -28,8 +27,7 @@ const Footer = () =>{
         <li>تواصل المزودين</li>
         <li>الحصول على إشعار</li>
 </div>
-</div>  
-<div className={stylesss.gridss}> 
+ <div className={stylesss.gridss}> 
     <p>تابعنا</p>
     <div className={stylesss.icons}>
     <div className={stylesss.icons2}><i className='fa fa-linkedin'></i>   </div>   
