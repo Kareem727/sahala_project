@@ -63,46 +63,32 @@ width: 100%;
 @media screen and (max-width: 900px) {
     .hero-btns p{
         font-size: 36px;
-        color: white;
-    }
+     }
 }
-
 @media screen and (max-width: 620px) {
     .container{
 
         margin-bottom: 58%;
-        justify-content: center;        
-        width: 87%;
+         width: 87%;
 
     }
     .container img{
         
 transform: rotate(90deg) translateX(180px);
         width: 115%;
-        height: 414px;
-    }
+     }
     .hero-btns Button {
-        margin-top: 21px;
-        margin-left: 0%;
-        width: 237px;
-        height: 79px;
-      border-radius: 50px 50px 50px 50px;
-  
+         margin-left: 0%;
+         
     }
      
     .hero-btns {
-        position: absolute;
-        top: 40%;
+         top: 40%;
     left: 27%;
     width: 64%;
   }
-  .hero-btns p{
-      font-size: 32px;
-      color: white;
-  }
+  
 }
-
-
 @media screen and (max-width: 440px) {
     .container{
     margin-bottom: 82%;
@@ -121,33 +107,26 @@ height: 305px;
         margin-left: 0%;
         width: 200px;
         height: 64px;
-      border-radius: 50px 50px 50px 50px;
-  
+   
     }
      
     .hero-btns {
-        position: absolute;
-        top: 40%;
-        left: 23%;
+          left: 23%;
         width: 77%;
   }
-  .hero-btns p{
-      font-size: 32px;
-      color: white;
-  }
+ 
 }
 @media screen and (max-width: 402px) {
     .hero-btns Button {
         margin-top: 8px;
         margin-left: 0%;
-        width: 185px;
-        height: 64px;
+            width: 185px;
+    height: 64px;
     
     }
     .hero-btns p {
         font-size: 30px;
-        color: white;
-        margin-top: 18%;
+         margin-top: 18%;
     }
     
     .container img{
@@ -160,8 +139,7 @@ height: 305px;
 @media screen and (max-width: 370px) {
     .hero-btns Button {
         margin-top: 12px;
-        margin-left: 0%;
-        width: 228px;
+         width: 228px;
         height: 74px;
     }
     .hero-btns {
@@ -174,21 +152,21 @@ height: 305px;
     .container img{
         
         width: 148% !important;
-        height: 356px !important;
-            }
+             }
 }
 @media screen and (max-width: 321px) {
 
 .hero-btns Button {
     margin-top: 9px;
-    margin-left: 0%;
-    width: 210px;
+     width: 210px;
     height: 65px;
+}
+
 }
 @media screen and (max-width: 280px) {
 
     .container{
-        margin-top: -33% !important; 
+        margin-top: 0% !important; 
 
 justify-content: center !important;        
 width: 90% !important;
@@ -205,13 +183,11 @@ height: 282px !important;
         margin-left: -1% !important;
         width: 166px !important;
         height: 60px !important;
-      border-radius: 50px 50px 50px 50px;
-  
+   
     }
      
     .hero-btns {
-        position: absolute;
-        top: -4%;
+         top: -4%;
     left: 25%;
     width: 90% !important;
 
@@ -222,5 +198,4 @@ height: 282px !important;
   }
 
 
-}
 }

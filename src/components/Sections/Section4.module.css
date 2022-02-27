@@ -74,59 +74,24 @@ color: #747474;
             }
         }
         @media screen and (max-width: 920px) {
-            .container .background{
-                margin-right: 0.6% !important;
-            }
+             
             .container{
-                justify-content: center;
-                width: 100% !important;
-                display: block;
-                margin-top: 10%;
-                position: relative;
+                
                 margin-bottom: 124% !important;
             }
-            .container .background img:nth-child(2){
-                margin-left: 0% !important;
-                 width: 101% !important;
+             
+                
 
-                }
-                .container .background img:nth-child(1){
-                    margin-left: 0% !important;
-                    width: 100% !important;
-    
-                    }
-
-                    .container .par p:nth-child(1){
-                        margin-top: 15% !important;
-                    font-size: 36px !important;
-                    }
-                    .container .par p:nth-child(2){
-                        margin-top: 10% !important;
-                    font-size: 25px !important;
-                    }
+                    
             
-            .container .par{
-                width: 65%;
-                position: absolute;
-                left: 25%;
-                top: 97%;
-            }
+          
         }
         @media screen and (max-width: 440px) {
-            .container .par p:nth-child(1){
-                margin-top: 15% !important;
-            font-size: 36px !important;
-            }
-            .container .par p:nth-child(2){
-                margin-top: 10% !important;
-            font-size: 25px !important;
-            }
+             
             .container .par{
                 width: 78% !important;
-                position: absolute;
-                left: 10%;
-                top: 97%;
-            }
+                 left: 10%;
+             }
 
         }
         @media screen and (max-width: 370px) {
@@ -134,19 +99,15 @@ color: #747474;
                 margin-left: 23% !important;
             }
             .container .par p:nth-child(1){
-                margin-top: 15% !important;
-            font-size: 29px !important;
+             font-size: 29px !important;
             }
             .container .par p:nth-child(2){
-                margin-top: 10% !important;
-            font-size: 19px !important;
+             font-size: 19px !important;
             }
             .container .par{
-                width: 78% !important;
-                position: absolute;
+              
                 left: -8%;
-                top: 97%;
-            }
+             }
             .container .background img:nth-child(2){
                 margin-left: 0% !important;
                  width: 123% !important;
@@ -160,7 +121,4 @@ color: #747474;
 
         }
         
-        @media screen and (max-width: 280px) {
-           
-
-        }
+       

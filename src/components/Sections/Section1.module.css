@@ -88,7 +88,7 @@
     @media screen and (max-width: 1240px) {
         
         .paragraph-side1 .par p:nth-child(1){
-            font-size: 64px;
+            font-size: 57px;
         } 
         .paragraph-side1 .par  p:nth-child(2){
             font-size: 32px;
@@ -163,13 +163,12 @@
 
             }
 
-
-            @media screen and (max-width: 920px) {
+     @media screen and (max-width: 920px) {
                 .container2{
                     display: block;
                 }
                 .paragraph-side1 .par p:nth-child(1){
-                    font-size: 64px;
+                    font-size: 54px;
                 } 
                 .paragraph-side1 .par  p:nth-child(2){
                     font-size: 32px;
@@ -177,8 +176,6 @@
                 }
                 
                 .paragraph-side1 .par  button{
-                    width: 206px;
-                    height: 62px;
                     margin-bottom: 50px;
                 }
                 
@@ -250,24 +247,26 @@
                 
                     }
 
-                    @media screen and (max-width: 730px) {
+    @media screen and (max-width: 730px) {
                         .container2{
                             display: block;
                         }
                         .paragraph-side1 .par p:nth-child(1){
-                            font-size: 64px;
+                            font-size: 45px;
                         } 
                         .paragraph-side1 .par  p:nth-child(2){
-                            font-size: 32px;
+                            font-size: 26px;
                         
                         }
                         
                         .paragraph-side1 .par  button{
-                            width: 206px;
-                            height: 62px;
+                            
                             margin-bottom: 50px;
                         }
-                        
+                        .par{
+                            margin-top: 26%;
+
+                        }
                         .background-side2 {
                             width: 118% !important;
                             height: 150% !important;
@@ -333,18 +332,14 @@
                                }
                                
                             }
-                
-                
-                
-
-                            
+                       
     @media screen and (max-width: 430px) {
         .paragraph-side1 .par p:nth-child(1){
             margin-top: 40%;
-            font-size: 54px !important;
+            font-size: 41px !important;
         } 
         .paragraph-side1 .par  p:nth-child(2){
-            font-size: 26px !important;
+            font-size: 22px !important;
         
         }
         

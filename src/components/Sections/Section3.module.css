@@ -77,56 +77,34 @@ margin-left: 48.6%;
         }
         @media screen and (max-width: 920px) {
             .container{
-                justify-content: center;
-                width: 100% !important;
-                display: block;
-                margin-top: 10%;
-                position: relative;
+                 
                 margin-bottom: 80% !important;
             }
             .container .background img:nth-child(2){
-                margin-left: 0% !important;
-                 width: 204% !important;
+                  width: 204% !important;
 
                 }
                 .container .background img:nth-child(1){
-                    margin-left: 0% !important;
-                     width: 105% !important;
+                      width: 105% !important;
     
                     }
 
-                    .container .par p:nth-child(1){
-                        margin-top: 15% !important;
-                    font-size: 36px !important;
-                    }
-                    .container .par p:nth-child(2){
-                        margin-top: 10% !important;
-                    font-size: 25px !important;
-                    }
+                 
             
-            .container .par{
-                width: 65%;
-                position: absolute;
-                left: 25%;
-                top: 97%;
-            }
+            
 
         }
         @media screen and (max-width: 440px) {
             .container .par p:nth-child(1){
-                margin-top: 15% !important;
-            font-size: 36px !important;
+             font-size: 36px !important;
             }
             .container .par p:nth-child(2){
-                margin-top: 10% !important;
-            font-size: 25px !important;
+             font-size: 25px !important;
             }
             .container .par{
-                width: 78% !important;
-                position: absolute;
-                left: 10%;
-                top: 97%;
-            }
+                width: 79% !important;
+                 left: 10%;
+             }
 
         }
         @media screen and (max-width: 370px) {
@@ -134,19 +112,12 @@ margin-left: 48.6%;
                 margin-left: 23% !important;
             }
             .container .par p:nth-child(1){
-                margin-top: 15% !important;
-            font-size: 29px !important;
+             font-size: 29px !important;
             }
             .container .par p:nth-child(2){
-                margin-top: 10% !important;
             font-size: 19px !important;
             }
-            .container .par{
-                width: 78% !important;
-                position: absolute;
-                left: 10%;
-                top: 97%;
-            }
+             
             .container .background img:nth-child(2){
                 margin-left: 0% !important;
                  width: 237% !important;
@@ -157,11 +128,10 @@ margin-left: 48.6%;
                      width: 122% !important;
     
                     }
+                    .container .par{
+                        width: 70% !important;
+                        left: -1%;
+                     } 
 
         }
         
-        @media screen and (max-width: 280px) {
-           
-
-        }
-    
