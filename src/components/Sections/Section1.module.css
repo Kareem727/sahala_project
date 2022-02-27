@@ -75,7 +75,7 @@
     height: 84px;
     border-radius: 50px 50px 50px 50px;
     background-color: #297C9C;
-    border-color: #297C9C;
+    border-color: #297b9c00;
     color: white;
     font-family: 'ZahraArabic';
     font-size: 26px;
@@ -114,7 +114,7 @@
  
                 .background-side2 .par2{
                         width: 700px;
-                        height: 150%;
+                        height: 100%;
                        }
         .background-side2 .par2 .b1 img{
             height: 90%;
@@ -139,25 +139,25 @@
 
 .b3{
     position: absolute;
-    top: 8%;
+    top: 15%;
     left: 34%;
 
 }
 
 .b4{
     position: absolute;
-    top: 7%;
+    top: 13%;
     left: 6%;
 }
 .b5{
     position: absolute;
-    top: 16%;
+    top: 30%;
     left: 43%;
 }
 
 .b6{
     position: absolute;
-    top: 25.5%;
+    top: 42.5%;
     left: 6%;
 }
 

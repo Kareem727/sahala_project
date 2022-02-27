@@ -1,5 +1,5 @@
 import React from "react";
-import styless from "./Nav.module.css";
+import "./Nav.css";
 import logo from '../img/logo/logo.jpeg';
 import { useState } from "react";
 const NavBar = () => {
@@ -10,7 +10,7 @@ const NavBar = () => {
   const closeMenu =() => setclick(false);
  
   const showButton =() => {
-      if(window.innerWidth <= 920){
+      if(window.innerWidth <= 960){
           setButton(false);
       }else{
           setButton(true);
@@ -20,22 +20,26 @@ window.addEventListener('resize' , showButton);
 
   return (
       <bdo dir="rtl">
-    <nav className={styless.nav}>
+    <nav className={'nav'}>
+<div className={'nav-container'}>
 
-    <div className={styless['nav-container']}>
-    <div className={styless.logoo}>
+
+    <div className={'logoo'}>
       <img src={logo} alt={'logo'}/>
       </div>
       
-     <div className={styless.navCon}>
-        <ul className={styless['nav-links']}>
-        <li className={styless.lili}>الرئيسية</li>
-          <li className={styless.lili}>المزايا</li> 
+     <div className={'navCon'}>
+       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li onClick={closeMenu} className={'nav-item : lili'}>الرئيسية</li>
+          <li onClick={closeMenu} className={'nav-item : lili'}>المزايا</li> 
+          <li onClick={closeMenu} className={'nav-links-sign : lili'}>تنزيل الان</li> 
+
         </ul>
         </div>
-        {/* <div className='menu-icon' onClick={eventclickHandler}>
-                    <i className={click ? 'fas fa-times' :'fas fa-bars'} /> 
+        <div className='menu-icon' onClick={eventclickHandler}>
+                    <i className={click ? 'fa fa-times' :'fa fa-bars'} /> 
                 </div>
+        {/* 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMenu}>Home</Link>
@@ -50,9 +54,9 @@ window.addEventListener('resize' , showButton);
             <Link to='/sign-up' className='nav-links-sign' onClick={closeMenu}>Signup</Link>
                     </li>
                 </ul> */}
-        {button && <button className={styless['nav-button']}>تنزيل الأن</button>}
 
-      
+{button && <button className={'nav-button'}>تنزيل الأن</button>}
+
     </div>
     </nav>
     
