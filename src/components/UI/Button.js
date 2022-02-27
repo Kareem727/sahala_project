@@ -19,7 +19,7 @@ const Button = ({
     ? buttonSize : SIZE[0]; //if not chosen will be medium
    return(
        <a className='btn-mobile'>
-        <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+        <button data-aos="zoom-out-down" className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
         >

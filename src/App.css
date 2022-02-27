@@ -1,4 +1,6 @@
 .App {
   font-family: 'ZahraArabic';
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 

@@ -4,7 +4,16 @@ import img2 from '../img/2.png'
 import img3 from '../img/3.png'
 import img4 from '../img/Phone.png'
 import img5 from '../img/mobile_background.png'
+import React, {useEffect} from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+   
+
 const Section_1 = () =>{
+    useEffect(() =>{
+        Aos.init({duration: 400
+        });
+            },[]);
     return(
         
         <bdo dir='rtl'>
@@ -41,19 +50,19 @@ const Section_1 = () =>{
         </div>
 
 
-        <div className={stylesss.b3}>
+        <div data-aos='fade-up' className={stylesss.b3}>
         <img src={img4}/>
         </div>
 
-        <div className={stylesss.b4}>
+        <div data-aos='fade-down' className={stylesss.b4}>
         <img src={img1}/>
         </div>
 
-        <div className={stylesss.b5}>
+        <div data-aos='fade-left' className={stylesss.b5}>
         <img src={img2}/>
         </div>
 
-        <div className={stylesss.b6}>
+        <div data-aos='fade-right' className={stylesss.b6}>
         <img src={img3}/>
         </div>
         </div>

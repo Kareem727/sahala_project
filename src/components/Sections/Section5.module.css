@@ -3,6 +3,7 @@
 text-align: center;
 position: relative;
 
+
 }
 
   .container img{
@@ -139,8 +140,8 @@ height: 305px;
     .hero-btns Button {
         margin-top: 8px;
         margin-left: 0%;
-        width: 207px;
-        height: 70px;
+        width: 185px;
+        height: 64px;
     
     }
     .hero-btns p {

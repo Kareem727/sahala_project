@@ -2,6 +2,7 @@
     display: flex;
     margin-top: 10%;
     position: relative;
+    
 }
 
 .container .par{
@@ -82,7 +83,7 @@ color: #747474;
                 display: block;
                 margin-top: 10%;
                 position: relative;
-                margin-bottom: 100% !important;
+                margin-bottom: 124% !important;
             }
             .container .background img:nth-child(2){
                 margin-left: 0% !important;
@@ -143,7 +144,7 @@ color: #747474;
             .container .par{
                 width: 78% !important;
                 position: absolute;
-                left: 10%;
+                left: -8%;
                 top: 97%;
             }
             .container .background img:nth-child(2){
