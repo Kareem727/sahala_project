@@ -7,13 +7,13 @@ import Section_4 from './components/Sections/Section4';
 import Section_5 from './components/Sections/Section5';
 import './App.css'
 import { BrowserRouter as Router, Routes , Route, BrowserRouter } from 'react-router-dom';
-import ScrollToTop from './components/Scroll';
-
+import ScrollToTop from './components/Sections/Scroll';
+ 
 function App() {
   return (
     <div className='App'>
            <Router>
-<ScrollToTop/>
+<ScrollToTop />
      <NavBar/>
     <Routes>
       <Route path='/' element={<Section_1/>} exact/>

@@ -33,12 +33,12 @@ width: 20% !important;
 .container2{
     display: flex;
     justify-content: space-between;
-    width: 53%;
+    width: 58%;
     align-items: center;
    margin-right: 13%;
  }
  .container2 .gridss{
-     width: 30%;
+     width: 44%;
  }
  .gridss .icons{
     margin-top: 36%;

@@ -17,7 +17,7 @@ const Section_1 = () =>{
     return(
         
         <bdo dir='rtl'>
-            <div className={stylesss.container2}>
+            <div className={stylesss.container2} id='about'>
 
             <div className={stylesss['paragraph-side1']}>
        

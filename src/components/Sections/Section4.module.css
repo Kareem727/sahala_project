@@ -33,7 +33,7 @@ color: #747474;
 .container .background img:nth-child(2){
         position: relative;
         }
-
+       
         @media screen and (max-width: 1200px) {
             .container .background{
                 margin-right: 0.6% !important;

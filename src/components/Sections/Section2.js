@@ -11,7 +11,7 @@ Aos.init({duration: 1000});
     },[]);
     return(
 <bdo dir='rtl'>
-        <div className={stylesss.container}>
+        <div className={stylesss.container}  id="adv">
 
         <div className={stylesss.sss}>
         <img data-aos='fade-down' src={Rectange3}></img>

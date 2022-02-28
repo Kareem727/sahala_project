@@ -18,13 +18,13 @@ return(
     <p data-aos="zoom-out">قم بتنزيل التطبيق الآن والفوائد المتنوعة<br/> التي 
 ستحصل عليها على الفور</p>
 
-    <Button  className={stylesss.btns}
+<a href="#about"><Button  className={stylesss.btns}
     buttonStyle='btn--outline'
-    buttonSize='btn--large'>عن التطبيق</Button>
+    buttonSize='btn--large'>عن التطبيق</Button></a>
      
-    <Button  data-aos='zoom-out'
+     <a href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea"><Button  data-aos='zoom-out'
     buttonStyle='btn--primary'
-    buttonSize='btn--large'>تنزيل الأن</Button>
+    buttonSize='btn--large'>تنزيل الأن</Button></a>
    </div>
 
     </div>

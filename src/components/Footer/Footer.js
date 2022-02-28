@@ -9,7 +9,7 @@ const Footer = () =>{
     <div className={stylesss.innerConteiner}>
     <div className={stylesss.container3}>
     <div className={stylesss.gridss}>
-    <img src={logo}></img>
+    <a href="#about"><img src={logo}></img></a>
     <p>قم بتصفح مختلف الأقسام و المنتجات و قم بتواصل مع مختلف مزودي الخدمات للتفاوض على الأسعار و لشراء المنتج</p>
     </div>
     </div>
@@ -19,8 +19,8 @@ const Footer = () =>{
     <div className={stylesss.ddddd}>
  <div className={stylesss.gridss}>
     <p>خرائط المواقع</p>  
-        <li className={stylesss.mgtLi}>الرئيسية</li>
-        <li>المزايا</li>  
+    <a href="#about"><li className={stylesss.mgtLi}>الرئيسية</li></a>
+    <a href="#adv"><li>المزايا</li></a>
 </div>
 <div className={stylesss.gridss}>
         <p>المزايا</p>
