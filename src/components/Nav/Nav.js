@@ -33,9 +33,7 @@ window.addEventListener('resize' , showButton);
      <div className={'navCon'}>
        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
        <a href="#about"><li onClick={closeMenu} className={'nav-item : lili'}>الرئيسية</li></a> 
-      <a smooth={true}
-    offset={-70}
-    duration={500} href="#adv"> <li onClick={closeMenu} className={'nav-item : lili'}> المزايا </li> </a>
+      <a href="#adv"> <li onClick={closeMenu} className={'nav-item : lili'}> المزايا </li> </a>
       <a href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea"> <li onClick={closeMenu} className={'nav-links-sign : lili'}>تنزيل الان</li></a>
          </ul>
         </div>

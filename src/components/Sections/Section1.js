@@ -33,7 +33,7 @@ const Section_1 = () =>{
 
        
              </p>
-             <button>تنزيل الان</button>
+             <a href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea" target="_blank"><button>تنزيل الان</button></a>
 
        </div>
         

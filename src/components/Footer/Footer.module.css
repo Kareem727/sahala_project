@@ -5,6 +5,7 @@
     display: flex;
 
 }
+
 .Tabenaa{
     margin-top: 13%;
 }
@@ -36,6 +37,9 @@ width: 20% !important;
     width: 58%;
     align-items: center;
    margin-right: 13%;
+ }
+ .container2 a{
+     text-decoration: none;
  }
  .container2 .gridss{
      width: 44%;
@@ -112,6 +116,9 @@ width: 20% !important;
    .container2 div:nth-child(2) p {
     margin-top: 15%;
     }
+    .container2 .gridss{
+        width: 30% !important;
+    }
     }
 
     @media screen and (max-width: 500px) {
@@ -133,8 +140,9 @@ width: 20% !important;
             width: 70% !important;
         }
        .container2 div:nth-child(2) p {
-            margin-top: 0%;
-        }
+             margin-top: 17%;
+        }        
+        
         }
 
 
