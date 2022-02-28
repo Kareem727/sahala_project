@@ -90,11 +90,14 @@ transform: rotate(90deg) translateX(180px);
   
 }
 @media screen and (max-width: 440px) {
+    .hero-btns p{
+        font-size: 29px;
+     }
     .container{
     margin-bottom: 82%;
 justify-content: center;        
-width: 83%;
-
+width: 122%;
+    left: -23%;
     }
     .container img{
         
@@ -109,10 +112,11 @@ height: 305px;
         height: 64px;
    
     }
-     
+ 
     .hero-btns {
-          left: 23%;
-        width: 77%;
+        left: 38%;
+        width: 43%;
+        top: 41% !important;
   }
  
 }
@@ -137,7 +141,14 @@ height: 305px;
             
 }
 @media screen and (max-width: 370px) {
-    .hero-btns Button {
+    .container{
+        margin-bottom: 82%;
+    justify-content: center;        
+    width: 122%;
+        left: -37%;
+        }
+        
+        .hero-btns Button {
         margin-top: 12px;
          width: 228px;
         height: 74px;
@@ -145,8 +156,8 @@ height: 305px;
     .hero-btns {
         position: absolute;
         top: 44%;
-        left: 27%;
-        width: 92%;
+        left: 40%;
+        width: 65%;
   }
    
     .container img{

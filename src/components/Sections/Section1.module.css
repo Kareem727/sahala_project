@@ -265,6 +265,7 @@
                         }
                         .par{
                             margin-top: 26%;
+                            width: 83% !important;
 
                         }
                         .background-side2 {
@@ -430,31 +431,25 @@
     @media screen and (max-width: 330px) {
         .paragraph-side1 .par p:nth-child(1){
             margin-top: 40%;
-            font-size: 54px !important;
+            font-size: 40px !important;
         } 
         .paragraph-side1 .par  p:nth-child(2){
-            font-size: 26px !important;
+            font-size: 20px !important;
         
         }
         
         .container2{
             display: block;
         }
-        .paragraph-side1 .par p:nth-child(1){
-            font-size: 64px;
-        } 
-        .paragraph-side1 .par  p:nth-child(2){
-            font-size: 32px;
         
-        }
         
         .paragraph-side1 .par  button{
-            width: 206px;
-            height: 62px;
+            width: 180px;
+            height: 66px;
             margin-bottom: 50px;
         }
         .paragraph-side1 .par{
-            margin-right: 2% !important;
+            margin-right: 10% !important;
         }
         .background-side2 {
             width: 118% !important;
@@ -527,27 +522,21 @@
     @media screen and (max-width: 280px) {
         .paragraph-side1 .par p:nth-child(1){
             margin-top: 40%;
-            font-size: 54px !important;
+            font-size: 34px !important;
         } 
         .paragraph-side1 .par  p:nth-child(2){
-            font-size: 26px !important;
+            font-size: 19px !important;
         
         }
         
         .container2{
             display: block;
         }
-        .paragraph-side1 .par p:nth-child(1){
-            font-size: 64px;
-        } 
-        .paragraph-side1 .par  p:nth-child(2){
-            font-size: 32px;
-        
-        }
+      
         
         .paragraph-side1 .par  button{
-            width: 206px;
-            height: 62px;
+            width: 170px;
+            height: 55px;
             margin-bottom: 50px;
         }
         

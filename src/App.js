@@ -6,19 +6,32 @@ import Section_3 from './components/Sections/Section3';
 import Section_4 from './components/Sections/Section4';
 import Section_5 from './components/Sections/Section5';
 import './App.css'
+import { BrowserRouter as Router, Routes , Route, BrowserRouter } from 'react-router-dom';
+import ScrollToTop from './components/Scroll';
+
 function App() {
   return (
     <div className='App'>
-    
-    <Section_1/>
-    <NavBar/>
-    <Section_2/>
-    <Section_3/>
-    <Section_4/>
-    <Section_5/>
+           <Router>
+<ScrollToTop/>
+     <NavBar/>
+    <Routes>
+      <Route path='/' element={<Section_1/>} exact/>
+     
+      
+      <Route path='/about' element={<Section_4/>}/>
+     
+     </Routes>
+     <Section_2/>
+<Section_3/>
+     <Section_4/>
+      <Section_5/>
     <Footer/>
-    </div>
-  );
+          </Router>
+
+      </div>
+     
+   );
 }
 
 export default App;

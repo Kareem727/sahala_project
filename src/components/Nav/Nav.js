@@ -2,6 +2,8 @@ import React from "react";
 import "./Nav.css";
 import logo from '../img/logo/logo.jpeg';
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   const [click , setclick] = useState();  // initial value setclick
   const [button , setButton] = useState(true);
@@ -30,9 +32,9 @@ window.addEventListener('resize' , showButton);
       
      <div className={'navCon'}>
        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <li onClick={closeMenu} className={'nav-item : lili'}>الرئيسية</li>
-          <li onClick={closeMenu} className={'nav-item : lili'}>المزايا</li> 
-          <li onClick={closeMenu} className={'nav-links-sign : lili'}>تنزيل الان</li> 
+       <Link to='/'><li onClick={closeMenu} className={'nav-item : lili'}>الرئيسية</li></Link> 
+       <Link to='/about'> <li onClick={closeMenu} className={'nav-item : lili'}>المزايا</li></Link>
+        <Link to='/do'>  <li onClick={closeMenu} className={'nav-links-sign : lili'}>تنزيل الان</li> </Link>
 
         </ul>
         </div>

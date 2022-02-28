@@ -11,7 +11,7 @@ import rectangle from '../img/Rectangle 9.png'
     return(
         <bdo dir='rtl'>
             
-        <div className={stylesss.container}>
+        <div path='/aaa' className={stylesss.container}>
         <div data-aos="flip-down" className={stylesss.background}>
                 <img src={rectangle}></img>
                 <img src={img1}></img>
