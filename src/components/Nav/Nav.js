@@ -34,7 +34,7 @@ window.addEventListener('resize' , showButton);
        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
        <a href="#about"><li onClick={closeMenu} className={'nav-item : lili'}>الرئيسية</li></a> 
       <a href="#adv"> <li onClick={closeMenu} className={'nav-item : lili'}> المزايا </li> </a>
-      <a href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea"> <li onClick={closeMenu} className={'nav-links-sign : lili'}>تنزيل الان</li></a>
+      <a href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea" target="_blank"> <li onClick={closeMenu} className={'nav-links-sign : lili'}>تنزيل الان</li></a>
          </ul>
         </div>
         <div className='menu-icon' onClick={eventclickHandler}>
@@ -42,7 +42,7 @@ window.addEventListener('resize' , showButton);
                 </div>
    
 
-{button && <a href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea"><button className={'nav-button'}>تنزيل الأن</button></a>}
+{button && <a href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea" target="_blank"><button className={'nav-button'}>تنزيل الأن</button></a>}
 
     </div>
     </nav>
