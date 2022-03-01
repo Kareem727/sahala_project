@@ -1,7 +1,7 @@
 import React from "react";
 import "./Nav.css";
-import logo from '../img/logo/logo.jpeg';
-import { useState , forwardRef} from "react";
+import logo from '../img/logo/im2.jpg';
+ import { useState , forwardRef} from "react";
  
 const NavBar = forwardRef(({ onBackClick }, ref) => {
   const [click , setclick] = useState();  // initial value setclick

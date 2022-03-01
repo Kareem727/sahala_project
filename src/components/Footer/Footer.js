@@ -1,5 +1,5 @@
 import stylesss from './Footer.module.css'
-import logo from '../img/logo/logo.jpeg';
+import logo from '../img/logo/im1.jpeg';
 const Footer = () =>{
     return(
         <bdo dir='rtl'>
