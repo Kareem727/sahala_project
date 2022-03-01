@@ -1,10 +1,9 @@
 import React from "react";
 import "./Nav.css";
 import logo from '../img/logo/logo.jpeg';
-import { useState } from "react";
-import { Link } from "react-router-dom";
-
-const NavBar = () => {
+import { useState , forwardRef} from "react";
+ 
+const NavBar = forwardRef(({ onBackClick }, ref) => {
   const [click , setclick] = useState();  // initial value setclick
   const [button , setButton] = useState(true);
 
@@ -33,7 +32,7 @@ window.addEventListener('resize' , showButton);
      <div className={'navCon'}>
        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
        <a href="#about"><li onClick={closeMenu} className={'nav-item : lili'}>الرئيسية</li></a> 
-      <a href="#adv"> <li onClick={closeMenu} className={'nav-item : lili'}> المزايا </li> </a>
+      <a   href="#adv"> <li onClick={closeMenu} className={'nav-item : lili'}> المزايا </li> </a>
       <a href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea" target="_blank"> <li onClick={closeMenu} className={'nav-links-sign : lili'}>تنزيل الان</li></a>
          </ul>
         </div>
@@ -49,6 +48,6 @@ window.addEventListener('resize' , showButton);
     
         </bdo>
   );
-};
+});
 
 export default NavBar;

@@ -1,10 +1,11 @@
 .container{
    
-    margin-top: 10%;
+    padding-top: 21%;
     color: black;
     display: flex;
     justify-content: space-between;
     width: 90%;
+    scroll-behavior: smooth;
 }
 .sss{
     width: 50%;

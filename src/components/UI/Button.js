@@ -1,7 +1,6 @@
 import React from 'react';
 import './Button.css'
-import { Link } from 'react-router-dom';
-
+ 
 const STYLE = ['btn--primary' , 'btn--outline'] // defalt new
 const SIZE = ['btn--medium' , 'btn--large'] // defalt new
 

@@ -2,16 +2,21 @@ import stylesss from './Section2.module.css'
 import Rectangel from '../img/Group 147.png'
 import Rectange2 from '../img/Group 148.png'
 import Rectange3 from '../img/Group 149.png'
-import React, {useEffect} from 'react'
+import React, {useEffect , useRef } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import NavBar from '../Nav/Nav'
 const Section_2 = () =>{
     useEffect(() =>{
 Aos.init({duration: 1000});
     },[]);
+
+    
+
+
     return(
 <bdo dir='rtl'>
-        <div className={stylesss.container}  id="adv">
+        <div  className={stylesss.container}  id="adv">
 
         <div className={stylesss.sss}>
         <img data-aos='fade-down' src={Rectange3}></img>
@@ -33,7 +38,7 @@ Aos.init({duration: 1000});
         </div>
 
         </div>
-        </bdo>
+         </bdo>
 
     );
 }

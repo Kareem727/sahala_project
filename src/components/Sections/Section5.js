@@ -22,7 +22,7 @@ return(
     buttonStyle='btn--outline'
     buttonSize='btn--large'>عن التطبيق</Button></a>
      
-     <a href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea"><Button  data-aos='zoom-out'
+   <a rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.ix.ibrahim7.diarrhea" target='_blank'><Button  data-aos='zoom-out'
     buttonStyle='btn--primary'
     buttonSize='btn--large'>تنزيل الأن</Button></a>
    </div>

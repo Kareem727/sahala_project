@@ -1,18 +1,18 @@
 import stylesss from './Section3.module.css'
 import img1 from '../img/Image.png'
 import rectangle from '../img/Rectangle 99.png'
-import React, { useEffect } from 'react'
-import { Element } from 'react-scroll'
+import React, { useEffect ,useRef } from 'react'
      import Aos from 'aos'
     import 'aos/dist/aos.css'
-    const Section_3 = () =>{
+     const Section_3 = () =>{
         useEffect(() =>{
     Aos.init({duration: 1000});
         },[]);
+         
     return(
+        
          <bdo dir='rtl'>
- 
-        <div className={stylesss.container}>
+         <div  className={stylesss.container}>
             
             <div data-aos="flip-up" className={stylesss.background}>
                 <img src={rectangle}></img>
@@ -25,7 +25,7 @@ import { Element } from 'react-scroll'
 بإضافة الى إضافة مكان التوصيل.</p>
             </div>
             </div>
-             </bdo>
+               </bdo>
     );
 }
 
