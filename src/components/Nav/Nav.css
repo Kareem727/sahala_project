@@ -99,6 +99,9 @@ cursor: pointer;
         font-size: 2.5rem;
         cursor: pointer;
       }
+      .nav-button{
+          display: none;
+      }
       .sssss{
         transition: all 1.5s 1.5s ease-in;
 
